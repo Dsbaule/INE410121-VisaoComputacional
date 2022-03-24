@@ -1,5 +1,5 @@
-train: ../train/images
-val: ../valid/images
+train: ../CompleteSketchesDataset//train/images
+val: ../CompleteSketchesDataset/valid/images
 
 nc: 10
 names: ['Button', 'CheckBox', 'Image', 'Label', 'ListPicker', 'Map', 'Screen', 'Slider', 'Switch', 'TextBox']
